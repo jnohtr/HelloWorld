@@ -17,7 +17,7 @@ public class GettingandStoringUserInput {
         String lastName = keyboard.next();
 
         System.out.println("what's your houseNumber? : ");
-        String houseNumber = keyboard.next();
+        int houseNumber = keyboard.nextInt();
 
         System.out.println("what's your streetName? : ");
         String streetName = keyboard.next();
@@ -28,6 +28,8 @@ public class GettingandStoringUserInput {
         System.out.println("what's your streetName? : ");
         String city = keyboard.next();
 
+        System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
+        System.out.println(streetName + " " + streetType + " " + city);
 
     }
 }
